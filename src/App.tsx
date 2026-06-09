@@ -114,7 +114,13 @@ export default function App() {
       descricao: "Repositório dedicado ao estudo do ecossistema React, ciclo de vida e renderização dinâmica.",
       tecnologias: ["React", "JavaScript"],
       linkGitHub: "https://github.com/SimaraSantos/react"
-    }
+    },
+    {
+      titulo: "Catálogo Dinâmico de Produtos",
+      descricao: "Aplicação web desenvolvida com Next.js 15 para listagem e gerenciamento dinâmico de produtos, com consumo de rotas de API internas, gestão de variáveis de ambiente na Vercel e otimização de imagens remotas (Unsplash).",
+      tecnologias: ["Next.js", "TypeScript", "Vercel", "API Rest"],
+      linkGitHub: "https://github.com/SimaraSantos/nextjs-consumo-api-mock-api"
+    },
   ];
 
   const handleContato = (e: React.FormEvent) => {
