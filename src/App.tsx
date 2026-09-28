@@ -121,6 +121,12 @@ export default function App() {
       tecnologias: ["Next.js", "TypeScript", "Vercel", "API Rest"],
       linkGitHub: "https://github.com/SimaraSantos/nextjs-consumo-api-mock-api"
     },
+   {
+      titulo: "SouJunior Apoia.se Landing Page",
+      descricao: "Landing page desenvolvida para a plataforma de apoio e captação do projeto SouJunior.",
+      tecnologias: ["React", "TypeScript", "Tailwind CSS"],
+      linkGitHub: "https://github.com/inovacao-squad/soujunior-apoiase-landing"
+    },
   ];
 
   const handleContato = (e: React.FormEvent) => {
